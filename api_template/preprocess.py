@@ -14,10 +14,7 @@ with open("preprocessors/standard_scaler.pkl", "rb") as f:
 
 # TODO
 COLUMNS_TO_REMOVE = [
-'MonthlyIncome',
-'Department_Sales',
-'JobRole_Human Resource',
-'JobRole_Sales Executive'
+"EmployeeCount", "StandardHours", "Over18"
 
 ]
 
